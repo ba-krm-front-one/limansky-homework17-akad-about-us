@@ -1,0 +1,392 @@
+*,
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@font-face {
+	font-family: HansHendrick;
+	src: url(../fonts/HansKendrick-Regular.otf);
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #e2e7ec;
+	font-family: 'HansHendrick', sans-serif;
+}
+header{
+	width: 100%;
+	height: 500px;
+	background: url("../img/header.png") no-repeat, #b0b0b7;
+	background-size: cover;
+}
+.text{
+	color: #60606e;
+	font-family: Montserrat, sans-serif;;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.header-nav a,
+.header-nav p{
+	margin: 43px 80px 0;
+}
+.logo{
+	/* Style for "akad." */
+	font-family: Montserrat, sans-serif;;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+
+.header-nav>a>img{
+	width: 25px;
+	height: 25px;
+}
+.header-nav>a>img:hover{
+	color: #7beec7;
+}
+.header-title p{
+	display: flex;
+	justify-content: center;
+}
+.header-buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.header-title{
+	/* Style for "about us" */
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-top: 170px;
+
+}
+.header-buttons p{
+	margin: 0 10px;
+}
+.header-buttons a{
+	/* Style for "home / abo" */
+	color: #60606e;
+	font-family: Montserrat, sans-serif;;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header-buttons>a:hover{
+	color: #7beec7;
+}
+/*--------------------------end header-----------------------*/
+.main-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 150px;
+}
+.main-content>section{
+	padding: 20px;
+	max-width: 600px;
+	min-width: 300px;
+}
+
+.main-content>section>p{
+	/* Style for "Lorem ipsu" */
+	min-height: 194px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "Open Sans", sans-serif;;
+	text-transform: none;
+}
+
+.main-content>section>h4 {
+	/* Style for "We are awe" */
+	color: #60606e;
+	font-family: "Open Sans", sans-serif;;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.main-content>section>h1:before{
+	content:"";
+	width: 67px;
+	height: 21px;
+	background-color: #7beec7;
+	position: absolute;
+	display: block;
+	z-index: -1;
+	top:20px;
+}
+.main-content>section>h1{
+	position: relative;
+	display: block;
+								/*????????*/
+}
+
+.title>section:first-child{
+	margin: 0 auto;
+	text-align: center;
+	max-width: 716px;
+	padding: 0 20px;
+}
+.title>section>h1{
+	/* Style for "some benef" */
+	color: #60606e;
+	font-family: Montserrat, sans-serif;;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	position: relative;
+	width: 250px;
+	margin: 100px auto 20px;
+}
+.title>section>h1:before{
+	content:"";
+	width: 67px;
+	height: 21px;
+	background-color: #7beec7;
+	position: absolute;
+	display: block;
+	z-index: -1;
+	top:20px;
+}
+.main-content__benefits-spisok{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin:auto;
+	padding: 0 15px;
+	max-width:1140px;
+	min-height:350px;
+}
+.main-content__benefits-spisok>section{
+	padding: 10px;
+	max-width: 360px;
+	min-height:160px;
+}
+.main-content__benefits-spisok>section>h4:before{
+	content:"";
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top:12px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.main-content__benefits-spisok>section:nth-child(1)>h4:before{
+	background: url("../img/1fully.png");
+}
+.main-content__benefits-spisok>section:nth-child(2)>h4:before{
+	background: url("../img/2unlim.png");
+}
+.main-content__benefits-spisok>section:nth-child(3)>h4:before{
+	background: url("../img/3wp.png");
+}
+.main-content__benefits-spisok>section:nth-child(4)>h4:before{
+	background: url("../img/4e-com.png");
+}
+.main-content__benefits-spisok>section:nth-child(5)>h4:before{
+	background: url("../img/5custom.png");
+}
+.main-content__benefits-spisok>section:nth-child(6)>h4:before{
+	background: url("../img/6supp.png");
+}
+.main-content__dreamteam>section>p,
+.main-content__benefits>section>p,
+.main-content__benefits-spisok>section>p{
+	/* Style for "Cum sociis" */
+	color: #60606e;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.main-content__dreamteam>section>h1{
+	width: 290px;
+}
+
+
+.main-content__benefits-spisok>section>h4{
+	color: #60606e;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	position: relative;
+
+}
+
+.people{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin: auto;
+	max-width: 1180px;
+	min-height: 730px;
+}
+.people>img{
+	margin: 15px;
+
+}
+/*----------------------------------------------footer----------*/
+footer{
+	min-height: 330px;
+	width: 100%;
+	background-color: #7beec7;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 50px 15px;
+}
+footer>section{
+	max-width: 596px;
+	padding: 20px;
+	flex-grow:1;
+}
+footer>section>button{
+	/* Style for "Shape 11" */
+	width: 165px;
+	height: 49px;
+	background-color: #ffffff;
+	/* Style for "get in tou" */
+	color: #7beec7;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 15px;
+}
+footer>section>button:hover{
+background-color: #7beec7;
+	color: white;
+	border: 1px solid white;
+}
+footer>section>h1{
+	/* Style for "YOU THINK" */
+	max-width: 487px;
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.send-in{
+	/* Style for "Shape 10" */
+	max-width: 556px;
+	min-height: 230px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+.form__send{
+	/* Style for "Shape 13" */
+	width: 135px;
+	height: 50px;
+	background-color: #7beec7;
+	/* Style for "send" */
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	border: none;
+}
+.form__send:hover{
+	background-color: white;
+	color: #7beec7;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form__input{
+	/* Style for "Shape 12" */
+	max-width: 375px;
+	height: 50px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	color: #60606e;
+	/* Style for "your email" */
+	padding-left: 30px;
+	font-family: Montserrat, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	flex-grow: 1;
+
+}
+.send-in>h1{
+	color: #60606e;
+	font-family: Montserrat, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 38px;
+	text-transform: uppercase;
+	position: relative;
+	width: 340px;
+	margin: 0;
+
+}
+.send-in>p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "Open Sans", sans-serif;
+	text-transform: none;
+	color: #60606e;
+	margin: 0 0 10px;
+}
+.send-in>label{
+	display: flex;
+
+}
+
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
